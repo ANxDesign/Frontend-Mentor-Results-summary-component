@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    width: 1440px;
+    background-color: hsl(0, 0%, 100%);
+}
+p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main-box{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 10px; 
+    padding-bottom: 20px;
+}
+.left-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsla(252, 100%, 67%);
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    padding: 12px 25px;
+}
+.left-box h4{
+    margin-top: 10px;
+    color: hsl(241, 100%, 89%);
+    font-size: 20px;
+}
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: hsla(256, 72%, 46%, 0.5);
+    margin-top: 10px;
+}
+.score{
+    font-size: 58px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 800;
+    margin-top: 20px
+}
+.left-box h3{
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.text{
+    color: hsl(241, 100%, 89%);
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 28px;
+}
+.right-box{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    justify-content: space-between;
+    align-items: start;
+    padding: 10px 20px;
+}
+.summary{
+    width: 200px;
+    padding-right: 18px;
+    margin-top: 0;
+}
+.summary div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: hsla(241, 100%, 89%, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 16px;
+    
+    
+}
+.summary p{
+    font-size: 15px;
+}
+.summary img{
+    margin-right: 0;
+}
+.right-box button{
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    outline: none;
+    padding: 12px 80px;
+    border-radius: 19px;
+    cursor: pointer;
+    text-align: center;
+}
+.right-box button:hover{
+    background-color: hsla(252, 100%, 67%);
+}
+.right-box h4{
+    margin-bottom: 0; 
+    font-size: 20px;
+    color: hsl(224, 30%, 27%);
+
+}
+
+.re{
+    color: hsl(0, 100%, 67%);
+}
+.me{
+    color: hsl(39, 100%, 56%);
+}
+.ve{
+    color: hsl(166, 100%, 37%);
+}
+.vi{
+    color: hsl(234, 85%, 45%);
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%);
+    text-align: center;
+    margin-top: 80px;
+}
